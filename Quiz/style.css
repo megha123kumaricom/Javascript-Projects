@@ -1,0 +1,93 @@
+/* Reset */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page background */
+body{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background: pink;
+  color:white;
+}
+
+/* Quiz card */
+.container{
+  background: black;
+  padding:30px 40px;
+  border-radius:15px;
+  width:500px;
+  box-shadow:0 0 25px rgba(0,0,0,0.5);
+  backdrop-filter:blur(10px);
+}
+
+/* Heading */
+.container h1{
+  text-align:center;
+  margin-bottom:20px;
+  color:#ec6ef5;
+}
+
+/* Questions */
+.question{
+  margin-bottom:20px;
+  padding:10px;
+  border-radius:10px;
+  background: rgba(255,255,255,0.08);
+}
+
+.question p1{
+  font-weight:bold;
+  color:#e07af7;
+}
+
+/* Radio options */
+label{
+  font-size:14px;
+  cursor:pointer;
+}
+
+input[type="radio"]{
+  margin-right:5px;
+}
+
+/* Submit button */
+.submit{
+  width:100%;
+  padding:10px;
+  border:none;
+  border-radius:8px;
+  background: pink;
+  color:black;
+  font-weight:bold;
+  font-size:15px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.submit:hover{
+  background:#d458b7;
+  transform:scale(1.02);
+}
+
+/* Result box */
+.result{
+  margin-top:20px;
+  padding:10px;
+  border-radius:8px;
+  text-align:center;
+  font-weight:bold;
+  background: rgba(255,255,255,0.1);
+}
+
+/* Output text */
+#out{
+  text-align:center;
+  margin-top:10px;
+  color:#e291f6;
+}
